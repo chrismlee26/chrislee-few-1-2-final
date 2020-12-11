@@ -1,19 +1,26 @@
-import React, { Component } from 'react'
-import data from './metal.json'
-import BandDetail from './BandDetail'
+import React from 'react';
+import BandDetail from './BandDetail';
+import data from './metal.json';
 
-class Band extends Component {
-  render () {
+function Band() {
+  const bands = data.map(( { band_name, formed, origin, fans }, i) => {
+    return (
+      <BandDetail 
+        id={i}
+        key={band_name}
+        band_name={band_name}
+        formed={formed}
+        origin={origin}
+        fans={fans}
+      />
+    )
+  })
     return (
       <div>
-        {data.map((item, index) => {
-          return <BandDetail music={item} />
-        })}
+        { bands }
       </div>
-
     )
-  }
 }
 
-export default Band
+export default Band;
 

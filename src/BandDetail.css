@@ -1,0 +1,16 @@
+.Container {
+  padding: 3em 1em;
+  border: 1px dotted white;
+  width: 25%;
+  justify-content: center;
+}
+
+.Band-Title {
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+.Band-Info {
+  font-family: Arial, Helvetica, sans-serif;
+}

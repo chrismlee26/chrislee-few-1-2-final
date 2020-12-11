@@ -1,7 +1,7 @@
 import './App.css';
-import Heading from './Heading'
-import MetalMeta from './MetalMeta'
-import Band from './Band'
+import Heading from './Heading';
+import MetalMeta from './MetalMeta';
+import Band from './Band';
 
 function App() {
   return (

@@ -3,8 +3,8 @@ import React from 'react'
 function Heading() {
   return (
     <div>
-      <h3>FEW1.2 Final Assessment</h3>
-      <h5>Chris Lee</h5>
+      <h1>Chris Lee</h1>
+      <p>FEW1.2 Final Assessment</p>
     </div>
   )
 }
