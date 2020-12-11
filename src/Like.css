@@ -1,0 +1,15 @@
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 1ex;
+  display: flex;
+  justify-content: center;
+}
+
+.Counter-Buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.Counter-Buttons > button {
+  font-family: cursive;
+}

@@ -1,13 +1,16 @@
 import React from 'react';
-import './BandDetail.css'
+import './BandDetail.css';
+import Like from './Like';
 
 function BandDetail(props) {
-  const { band_name, formed, origin, fans } = props;
+  const { band_name, formed, origin, fans, style } = props;
   return (
     <div className="Container">
       <h2 className="Band-Title">{band_name}</h2>
         <div className="Band-Info">
-          <p><strong>Origin:</strong> {origin} <strong>Fans:</strong> {fans} <strong>Formed:</strong> {formed}</p>
+          <p><strong>Origin:</strong> {origin} <strong>Fans:</strong> {fans} <strong>Formed:</strong> {formed} </p>
+          <Like />
+          <p><strong>Style: </strong>{style}</p>
         </div>
     </div>
   )

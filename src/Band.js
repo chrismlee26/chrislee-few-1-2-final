@@ -1,9 +1,10 @@
 import React from 'react';
 import BandDetail from './BandDetail';
 import data from './metal.json';
+import './Band.css';
 
 function Band() {
-  const bands = data.map(( { band_name, formed, origin, fans }, i) => {
+  const bands = data.map(( { band_name, formed, origin, fans, style }, i) => {
     return (
       <BandDetail 
         id={i}
@@ -12,11 +13,12 @@ function Band() {
         formed={formed}
         origin={origin}
         fans={fans}
+        style={style}
       />
     )
   })
     return (
-      <div>
+      <div className="band-style">
         { bands }
       </div>
     )
