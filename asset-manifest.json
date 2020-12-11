@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/chrislee-few-1-2-final/static/css/main.c37293cf.chunk.css",
+    "main.js": "/chrislee-few-1-2-final/static/js/main.923ecfab.chunk.js",
+    "main.js.map": "/chrislee-few-1-2-final/static/js/main.923ecfab.chunk.js.map",
+    "runtime-main.js": "/chrislee-few-1-2-final/static/js/runtime-main.d1349550.js",
+    "runtime-main.js.map": "/chrislee-few-1-2-final/static/js/runtime-main.d1349550.js.map",
+    "static/js/2.3db306c6.chunk.js": "/chrislee-few-1-2-final/static/js/2.3db306c6.chunk.js",
+    "static/js/2.3db306c6.chunk.js.map": "/chrislee-few-1-2-final/static/js/2.3db306c6.chunk.js.map",
+    "static/js/3.37a7af55.chunk.js": "/chrislee-few-1-2-final/static/js/3.37a7af55.chunk.js",
+    "static/js/3.37a7af55.chunk.js.map": "/chrislee-few-1-2-final/static/js/3.37a7af55.chunk.js.map",
+    "index.html": "/chrislee-few-1-2-final/index.html",
+    "static/css/main.c37293cf.chunk.css.map": "/chrislee-few-1-2-final/static/css/main.c37293cf.chunk.css.map",
+    "static/js/2.3db306c6.chunk.js.LICENSE.txt": "/chrislee-few-1-2-final/static/js/2.3db306c6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d1349550.js",
+    "static/js/2.3db306c6.chunk.js",
+    "static/css/main.c37293cf.chunk.css",
+    "static/js/main.923ecfab.chunk.js"
+  ]
+}
