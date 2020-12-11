@@ -12,5 +12,5 @@ function BandDetail(props) {
     </div>
   )
 }
- 
+
 export default BandDetail

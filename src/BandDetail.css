@@ -1,8 +1,16 @@
+.BandDetail {
+  display: grid;
+  grid-template-columns: 60px 60px;
+  grid-gap: 2em;
+  max-width: 100px;
+  margin: auto;
+  padding: 2em;
+}
+
 .Container {
-  padding: 3em 1em;
+  padding: 6em 1em;
   border: 1px dotted white;
-  width: 25%;
-  justify-content: center;
+  display: block;
 }
 
 .Band-Title {
