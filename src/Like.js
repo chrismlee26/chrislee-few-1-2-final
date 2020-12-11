@@ -10,7 +10,7 @@ class Like extends Component {
   render() {
     return (
       <div className="Counter">
-        <h1>{this.state.count}</h1>
+        <h1 className="countymccounter">{this.state.count}</h1>
           <div className="Counter-Buttons">
             <button onClick={() => {
               this.setState({ count: this.state.count + 1 })

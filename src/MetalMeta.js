@@ -4,8 +4,8 @@ import data from './metal.json'
 function MetalMeta() {
   return (
     <div>
-      <p>Metal Bands 🤘</p>
-      <p>Bands: {JSON.parse(JSON.stringify(data)).length} </p>
+      <h3>Metal Bands 🤘</h3>
+      <h3>Total Bands: {JSON.parse(JSON.stringify(data)).length} </h3>
     </div>
   )
 }

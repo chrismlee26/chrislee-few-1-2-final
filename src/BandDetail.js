@@ -9,9 +9,9 @@ function BandDetail(props) {
       <h2 className="Band-Title">{band_name}</h2>
         <div className="Band-Info">
           <p><strong>Origin:</strong> {origin} <strong>Fans:</strong> {fans} <strong>Formed:</strong> {formed} </p>
-          <Like />
-          <p><strong>Style: </strong>{style}</p>
+          <p>{style}</p>
         </div>
+        <Like />
     </div>
   )
 }
